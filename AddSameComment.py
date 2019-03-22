@@ -14,7 +14,7 @@ def restart_program():
     os.execl(python, python, * sys.argv)
 
 def init():
-    dirver = webdriver.Firefox()
+    dirver = webdriver.Chrome()
     return dirver
 
 def login(dirver, name, password):
